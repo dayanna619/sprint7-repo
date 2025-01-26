@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# leer los datos
 car_data = pd.read_csv(
-    # leer los datos
     r'C:\Users\dayan\OneDrive\Escritorio\proyecto_sprint_7\sprint7-repo\vehicles_us.csv')
 
 # Agregar un encabezado a la aplicación
