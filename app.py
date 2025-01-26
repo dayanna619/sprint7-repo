@@ -4,8 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # leer los datos
-car_data = pd.read_csv(
-    r'C:\Users\dayan\OneDrive\Escritorio\proyecto_sprint_7\sprint7-repo\vehicles_us.csv')
+car_data = pd.read_csv("vehicles_us.csv")
 
 # Agregar un encabezado a la aplicación
 st.header('Análisis de Datos de Vehículos')
